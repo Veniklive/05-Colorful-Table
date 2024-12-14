@@ -3,7 +3,8 @@ caption{
     font-size: 20px;
 }
 
-span{
+caption::after{
+    content: '#05';
     color: #8530c8;
 }
 
@@ -14,7 +15,6 @@ table {
 }
 
 thead{
-    font-weight: bold;
     background-color: #ffe4c5;
 }
 
